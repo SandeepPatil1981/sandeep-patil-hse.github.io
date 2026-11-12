@@ -1,0 +1,19 @@
+SANDEEP HSE PORTFOLIO - GITHUB ONE-FILE FIX
+
+This version contains the design, scripts, dashboard data, and CV inside index.html.
+No assets folder is required.
+
+UPLOAD STEPS
+1. Open your GitHub website repository.
+2. Open the Code tab.
+3. Delete or replace the existing index.html.
+4. Click Add file > Upload files.
+5. Upload index.html and .nojekyll from this folder.
+6. Commit directly to the main branch.
+7. Confirm Settings > Pages uses main and /(root).
+8. Open Actions and wait until the Pages deployment is successful.
+9. Open your website and press Ctrl+F5, or clear the mobile browser cache.
+
+IMPORTANT
+- index.html must be in the repository root, not inside another folder.
+- Do not rename index.html.
