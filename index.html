@@ -764,13 +764,30 @@ html[data-theme="dark"] .disclaimer-box { background: #3a2b0d; color: #f3dcae; }
   padding: 0;
 }
 
-.profile-photo-frame img {
-  width: 100%;
-  height: 100%;
-  display: block;
+.profile-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.profile-photo {
+  width: 260px;
+  height: 260px;
   object-fit: cover;
-  object-position: center 15%;
+  object-position: center top;
   border-radius: 50%;
+  border: 6px solid #16a34a;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.28);
+  background: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .profile-photo {
+    width: 190px;
+    height: 190px;
+    border-width: 5px;
+  }
 }
 </style>
   <script type="application/ld+json">
